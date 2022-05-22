@@ -7,38 +7,58 @@
     <title>Game</title>
 </head>
 <body>
+    <?php
+    $playerOne = $_REQUEST['playerOne'];
+    $playerTwo = $_REQUEST['playerTwo'];
+    ?>
     <header>
         <div class="container">
             <div class="header-logo">
                 <h1>Super Extreme Toe-Tic-Tac <span>3</span>!!!</h1>
             </div>
-            <nav>
-                <ul>
-                    <li><a href="#">Scores</a></li>
-                </ul>
-            </nav>
         </div>
     </header><!--* END NAVIGATION header-->
 
     <div class="container">
-        <main class="col-3">
-
+        <main class="col-3 container">
             <!-- Game information -->
-            <div class="col-1">
+            <section>
+                <div class="title">
+                    <h2>playerOne VS playerTwo</h2>
+                </div>
+                <div class="current-move card">
+                    <h2>Current Move</h2>
 
-            </div>
+                </div>
+            </section>
 
             <!-- The game -->
-            <table class="col-3">
+            <section>
+                <table>
 
-            </table>
-        </main>
+                </table>
+            </section>
+        </main><!-- END .main -->
 
-        
+
+
+
+
+
+        <!-- Game Details -->
         <aside class="col-1">
 
-        </aside>
-    </div>
+        </aside><!--* END aside -->
+    </div><!--* END .container -->
+
+
+
+
+
+
+
+
+
 
     <footer>
         <p>&copy;<span id="year">2022</span> Super Extreme Toe-Tic-Tac 3</p>

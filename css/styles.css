@@ -1,0 +1,58 @@
+
+
+body{
+    margin: 0;
+    background: rgb(145, 117, 26);
+    font-size: 18px;
+}
+
+
+
+
+/*^ START TypoGraphy */
+
+/*! END Typography */
+
+
+
+/*^ START layout */
+
+/*- NAVIGATION */
+header{
+    background: rgb(246, 204, 68);
+}
+
+
+/*- flexbox */
+.container{
+    max-width: 960px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.col-1{
+    flex-basis: 22%;
+}
+.col-2{
+    flex-basis: 47;
+}
+.col-3{
+    flex-basis: 72%;
+}
+.col-4{
+    flex-basis: 97%;
+}
+
+
+
+
+
+.form{
+    background: rgb(193, 177, 34);
+    text-align: center;
+    padding: 10px;
+}
+
+/*! END Layout */

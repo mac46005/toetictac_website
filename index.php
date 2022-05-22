@@ -8,22 +8,41 @@
     <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
+
+
+
+
+
+
     <header>
         <div class="container">
             <div class="header-logo">
                 <h1>Super Extreme Toe-Tic-Tac <span>3</span>!!!</h1>
             </div>
-            <nav>
-                <ul>
-                    <li><a href="#">Scores</a></li>
-                </ul>
-            </nav>
         </div>
     </header><!--* END NAVIGATION header-->
 
+
+
+
+
+
+
+
+
     <div class="container">
-        <main>
-            <form action="post" action="./game.php">
+        <?php
+        if(isset($_POST['submit'])){
+            echo '<p>'.$_POST['playerOne'].'</p>';
+            echo '<p>'.$_POST['playerTwo'].'</p>';
+            header("index.php",true, 303);
+        }
+        ?>
+
+
+
+        <main class="col-4">
+            <form method="post" action="game.php" class="form container">
                 <fieldset>
                     <legend>Player One</legend>
                     <label for="">
@@ -39,17 +58,32 @@
                         <input type="text" name="playerTwo" id="playerTwo" placeholder="Player Two">
                     </label>
                 </fieldset>
-                <input class="btn-primary" type="submit" value="Create Game!">
-                    <a href="./game.php"></a>
-                </input>
+
+                <input class="btn-primary" name="submit" type="submit" value="Create Game">
             </form>
         </main>
+
+
+
+
+
+
 
 
         <aside>
 
         </aside>
     </div><!--* END .container -->
+
+
+
+
+
+
+
+
+
+
 
     <footer>
         <p>&copy;<span id="year">2022</span> Super Extreme Toe-Tic-Tac 3</p>
