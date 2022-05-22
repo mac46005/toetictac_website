@@ -23,7 +23,7 @@
     </header>
     <!--* END NAVIGATION header-->
 
-    <div class="container">
+    <div class="container content">
         <main class="col-3 container">
             <!-- Game information -->
             <section>
@@ -36,16 +36,30 @@
                 </div>
             </section>
 
+
+
+
+            
             <!-- The game -->
             <section class="ttt-table container container-row">
-                <div class="row ttt-table-top">
-
+                <div class="row ttt-table-row container">
+                    <div class="ttt-item"></div>
+                    <div class="ttt-item"></div>
+                    <div class="ttt-item"></div>
                 </div><!--* END .row.ttt-table-top -->
-                <div class="row ttt-table-middle">
 
+
+                <div class="row ttt-table-row container">
+                    <div class="ttt-item"></div>
+                    <div class="ttt-item"></div>
+                    <div class="ttt-item"></div>
                 </div><!-- END .row.ttt-table-middle -->
-                <div class="row ttt-table-bottom">
 
+
+                <div class="row ttt-table-row container">
+                    <div class="ttt-item"></div>
+                    <div class="ttt-item"></div>
+                    <div class="ttt-item"></div>
                 </div><!-- END .row.ttt-table-bottom -->
             </section>
         </main><!-- END .main -->

@@ -30,7 +30,7 @@
 
 
 
-    <div class="container">
+    <div class="container content">
         <main class="col-4">
             <form method="post" action="game.php" class="form container">
                 <fieldset>

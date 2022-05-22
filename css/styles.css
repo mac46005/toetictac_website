@@ -32,11 +32,14 @@ header{
 
 /*- flexbox */
 .container{
-    max-width: 960px;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+}
+
+.content{
+    width: 960px;
 }
 
 .col-1{
@@ -58,13 +61,29 @@ header{
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* ttt board */
-.ttt-items{
-    height: 5em;
-    border: 1px solid yellow;
+.ttt-table-row{
+    flex-basis: 100%;
+    border: 1px solid green;
+    height: 30px;
+
 }
 .ttt-item{
-    width: 5em;
+    width: 100px;
     border: 1px solid blue;
 }
 
@@ -91,9 +110,15 @@ header{
 input.text-input{
     border-radius: .5em;
     margin-left: 1em;
+    padding: 1em;
 }
-
-
+input.btn-primary{
+    padding: 1em;
+}
+input.btn-primary:hover, input.btn-primary:focus{
+    background: green;
+    color:black;
+}
 
 
 /*! END Layout */
