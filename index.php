@@ -31,23 +31,13 @@
 
 
     <div class="container">
-        <?php
-        if(isset($_POST['submit'])){
-            echo '<p>'.$_POST['playerOne'].'</p>';
-            echo '<p>'.$_POST['playerTwo'].'</p>';
-            header("index.php",true, 303);
-        }
-        ?>
-
-
-
         <main class="col-4">
             <form method="post" action="game.php" class="form container">
                 <fieldset>
                     <legend>Player One</legend>
                     <label for="">
                         Name: 
-                        <input type="text" name="playerOne" id="playerOne" placeholder="Player One">
+                        <input type="text" name="playerOne" id="playerOne" placeholder="Player One" class="text-input">
                     </label>
                 </fieldset>
 
@@ -55,7 +45,7 @@
                     <legend>Player Two</legend>
                     <label for="">
                         Name: 
-                        <input type="text" name="playerTwo" id="playerTwo" placeholder="Player Two">
+                        <input type="text" name="playerTwo" id="playerTwo" placeholder="Player Two" class="text-input">
                     </label>
                 </fieldset>
 

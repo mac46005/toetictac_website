@@ -11,6 +11,13 @@ body{
 
 /*^ START TypoGraphy */
 
+
+h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    border-bottom: 2px solid rgb(145, 117, 26);
+}
+
 /*! END Typography */
 
 
@@ -45,14 +52,48 @@ header{
     flex-basis: 97%;
 }
 
+.container-row{
+    flex-direction: row;
+}
+
+
+
+/* ttt board */
+.ttt-items{
+    height: 5em;
+    border: 1px solid yellow;
+}
+.ttt-item{
+    width: 5em;
+    border: 1px solid blue;
+}
+
+
+
+
+
+
+
 
 
 
 
 .form{
     background: rgb(193, 177, 34);
-    text-align: center;
     padding: 10px;
 }
+
+.btn-primary{
+    background:rgb(145, 117, 26);
+
+}
+
+input.text-input{
+    border-radius: .5em;
+    margin-left: 1em;
+}
+
+
+
 
 /*! END Layout */
