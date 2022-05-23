@@ -15,7 +15,7 @@
 
 
     <header>
-        <div class="container">
+        <div class="container-column content">
             <div class="header-logo">
                 <h1>Super Extreme Toe-Tic-Tac <span>3</span>!!!</h1>
             </div>
@@ -30,7 +30,7 @@
 
 
 
-    <div class="container content">
+    <div class="container-column content">
         <main class="col-4">
             <form method="post" action="game.php" class="form container">
                 <fieldset>

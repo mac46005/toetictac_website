@@ -23,57 +23,31 @@
     </header>
     <!--* END NAVIGATION header-->
 
-    <div class="container content">
-        <main class="col-3 container">
-            <!-- Game information -->
-            <section>
-                <div class="title">
-                    <h2><?php echo $playerOne." VS ". $playerTwo;?></h2>
+    <div class="container-row container-space-between content" style="border: 3px solid blue;">
+        <main class="col-3">
+            <section style="border: 1px solid red">
+                <div>
+                    <h2>Player vs Player</h2>
                 </div>
-                <div class="current-move card">
-                    <h2>Current Move</h2>
-
+                <div>
+                    <h2>Current Player</h2>
                 </div>
             </section>
 
 
 
-
-            
-            <!-- The game -->
-            <section class="ttt-table container container-row">
-                <div class="row ttt-table-row container">
-                    <div class="ttt-item"></div>
-                    <div class="ttt-item"></div>
-                    <div class="ttt-item"></div>
-                </div><!--* END .row.ttt-table-top -->
-
-
-                <div class="row ttt-table-row container">
-                    <div class="ttt-item"></div>
-                    <div class="ttt-item"></div>
-                    <div class="ttt-item"></div>
-                </div><!-- END .row.ttt-table-middle -->
-
-
-                <div class="row ttt-table-row container">
-                    <div class="ttt-item"></div>
-                    <div class="ttt-item"></div>
-                    <div class="ttt-item"></div>
-                </div><!-- END .row.ttt-table-bottom -->
+            <section style="border: 1px solid red">
+                <div class="ttt-table">
+                    
+                </div>
             </section>
-        </main><!-- END .main -->
-
-
-
-
-
-
-        <!-- Game Details -->
-        <aside class="col-1">
-
+        </main>
+        <aside class="col-1" style="border: 1px solid red">
+            <h1>Game Information</h1>
+            <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda, quis!
+            </p>
         </aside>
-        <!--* END aside -->
     </div>
     <!--* END .container -->
 

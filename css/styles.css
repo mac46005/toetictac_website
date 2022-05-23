@@ -31,17 +31,23 @@ header{
 
 
 /*- flexbox */
-.container{
+.content{
+    max-width: 960px;
+}
+
+.container-row{
     margin: 0 auto;
     display: flex;
+    flex-direction: row;
+}
+.container-column{
+    display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    margin: 0 auto;
 }
-
-.content{
-    width: 960px;
+.container-space-between{
+    justify-content: space-between;
 }
-
 .col-1{
     flex-basis: 22%;
 }
@@ -57,6 +63,19 @@ header{
 
 .container-row{
     flex-direction: row;
+}
+
+.row-1{
+    height: 22%;
+}
+.row-2{
+    height: 47%;
+}
+.row-3{
+    height: 72%;
+}
+.row-4{
+    height: 97%;
 }
 
 
@@ -76,20 +95,12 @@ header{
 
 
 /* ttt board */
-.ttt-table-row{
-    flex-basis: 100%;
+
+.ttt-table{
     border: 1px solid green;
-    height: 30px;
-
+    background: white;
+    height: 30rem;
 }
-.ttt-item{
-    width: 100px;
-    border: 1px solid blue;
-}
-
-
-
-
 
 
 
