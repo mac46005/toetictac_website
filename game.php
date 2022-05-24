@@ -38,10 +38,14 @@
 
             <section style="border: 1px solid red">
                 <div class="ttt-table">
-                    
+
                 </div>
             </section>
         </main>
+
+
+
+
         <aside class="col-1" style="border: 1px solid red">
             <h1>Game Information</h1>
             <p>
